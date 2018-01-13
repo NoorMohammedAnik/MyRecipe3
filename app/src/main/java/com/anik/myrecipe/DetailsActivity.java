@@ -1,5 +1,6 @@
 package com.anik.myrecipe;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -53,6 +54,9 @@ public class DetailsActivity extends AppCompatActivity {
             txtDescription.setText(R.string.des_recipe4);  //for replace text
 
         }
+
+
+        Intent intent=new Intent();
 
 
 
